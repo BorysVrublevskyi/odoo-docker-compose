@@ -12,7 +12,7 @@ Now you're in folder **odoo15**. Let's start the container:
 docker-compose -f docker-compose.yml --env-file ./env/example.env -p odoo up
 ```
 
-* Then open `localhost:8080` to access Odoo 15.0. If you want to start the server with a different port, change **ODOO_PORT** in env/example.env to another value, or create your's copy:
+* Then open `localhost:8080` to access Odoo 15.0. If you want to start the server with a different port, change `ODOO_PORT` in env/example.env to another value, or create your's copy:
 
 ```
 ports:
